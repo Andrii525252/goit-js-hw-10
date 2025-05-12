@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.links {
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  border: 3px solid purple;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+a.back-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border: 2px solid purple;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+label,
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+fieldset {
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+fieldset label {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Забороняє горизонтальний скрол */
+html,
+body {
+  overflow-x: hidden;
+}
